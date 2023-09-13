@@ -270,6 +270,7 @@
           },
           handleItemDrop (e, oriNode, oriItem) {
               //this.$el.style.backgroundColor = "inherit";
+              console.log(e, oriNode, oriItem, this.dropPosition)
               this.onItemDrop(e, oriNode, oriItem, this.dropPosition);
               this.dropPosition = '0';
               this.dropCss = '';
