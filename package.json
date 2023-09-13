@@ -1,12 +1,12 @@
 {
-  "name": "vue-jstree-extended",
+  "name": "vue-jstree-enhanced",
   "version": "2.1.8",
-  "description": "a tree plugin for vue2 extended with new functions",
+  "description": "a tree plugin for vue2 enhanced with new functions",
   "keywords": [
     "vue2",
     "tree"
   ],
-  "author": "AlexZodov",
+  "author": "Shubham_singh",
   "main": "dist/vue-jstree.js",
   "private": false,
   "license": "MIT",
