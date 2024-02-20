@@ -1,6 +1,6 @@
 {
   "name": "vue-jstree-enhanced",
-  "version": "2.2.27",
+  "version": "2.3.27",
   "description": "a tree plugin for vue2 enhanced with working sibling drag & drop",
   "keywords": [
     "vue2",

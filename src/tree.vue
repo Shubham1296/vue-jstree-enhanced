@@ -315,7 +315,7 @@
             },
 
             onItemDrop(e, oriNode, oriItem, position) {
-
+                console.log(e,oriNode,oriItem,position)
                 if (!this.draggable) return false
                 if(this.multiTree && !this.allowMultiTreeAndUsual){
                     //for multiTree case - emit drop node, item, and event, emitting even on left/right drop position
@@ -340,7 +340,7 @@
 
                         }
                         else if (oriNode.parentItem) {
-                            /** Item is droped before or under existing item ****/
+/** Item is droped before or under existing item ****/
 
                             if (oriNode.parentId) newParent = oriNode.parentId
                             // Find position of destination item in the parent group
